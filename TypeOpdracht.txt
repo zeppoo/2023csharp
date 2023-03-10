@@ -1,0 +1,9 @@
+Room
+PlayerSprite 
+bool
+KeyBind[]
+Bitmap
+Graphics
+int
+string
+float
