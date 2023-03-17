@@ -1,6 +1,6 @@
 ﻿namespace VariableOpdracht3
 {
-    //vul de ??? in
+
     internal class TwitchStream
     {
         private string tag;
@@ -14,7 +14,7 @@
             return tag;
         }
 
-        internal void SetTag(???)//maak hier een variable: type: string, name: tag
+        internal void SetTag(string tag)//maak hier een variable: type: string, name: tag
         {
             this.tag = tag;
         }

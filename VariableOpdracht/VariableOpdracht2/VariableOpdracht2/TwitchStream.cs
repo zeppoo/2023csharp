@@ -10,6 +10,19 @@ namespace VariableOpdracht2
         // type=Game, naam: streamGame
         // type=int, naam: followers
         // type=bool, naam: automod
-        
+        private string name;
+        private string lastStreamName;
+        private Game streamGame;
+        private int followers;
+        private bool automod;
+
+        public TwitchStream(string name, string lastStreamName, Game streamGame, int followers, bool automod)
+        {
+            this.name = name;
+            this.lastStreamName = lastStreamName;
+            this.streamGame = streamGame;
+            this.followers = followers;
+            this.automod = automod;
+        }
     }
 }

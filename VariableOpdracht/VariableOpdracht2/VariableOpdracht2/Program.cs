@@ -9,7 +9,7 @@ namespace VariableOpdracht2
         {
 
             //ga naar de file TwitchStream.cs in je solution explorer in visual studio
-            TwitchStream twitchStream = new TwitchStream();
+            TwitchStream twitchStream = new TwitchStream("Saultoons", "Gamedevving and game art", new Game("Faceplant"), 3200, false);
 
             //geef nu de stream de volgende waardes:
             //name, waarde: je favoriete streamer
